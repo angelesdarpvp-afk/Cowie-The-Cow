@@ -1,0 +1,70 @@
+body {
+    background-color: #55C9E0;
+    text-align: center;
+    font-family: Comic Sans MS;
+    background-image: url("images/paperv2.png");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+h1 {
+    background-color: #E05555;
+    background-image: radial-gradient(#ffffff33 1px, transparent 1px);
+	background-size: 10px 10px;
+    text-align: center;
+    font-family: Cooper Black;
+    font-size: 45px;
+    padding: 10px;
+    border: 3px dotted black;
+    width: 80%;
+    margin: 20px auto;
+}
+
+p {
+    font-size: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px dotted black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 20px auto;
+    max-width: 1200px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E05555;
+    background-image: radial-gradient(#ffffff33 1px, transparent 1px);
+    background-size: 10px 10px;
+    border: 3px dotted black;
+}
+
+ul li a {
+    display: block;
+    color: black;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-family: Comic Sans MS;
+    font-size: 20px;
+}
+
+a:hover {
+    background-color: white;
+    font-size: 25px;
+}
+
+iframe {
+    display: block;
+    width: 700px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
